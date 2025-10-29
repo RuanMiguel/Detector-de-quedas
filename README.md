@@ -15,24 +15,24 @@ Este projeto implementa um sistema embarcado inteligente para detecção de qued
 
 🧩 Arquitetura do Sistema  
   O projeto é modular e organizado em módulos:  
-    StatusSystem: Gerencia os estados do sistema: BOOT → IDLE → RUN → ERROR  
-    ConfigManager: Lê, salva e restaura configurações via NVS  
-    SensorManager: Inicializa o MPU6050 e detecta quedas com base na aceleração  
-    Logger: Registra os dados capturados em formato CSV usando LittleFS  
+    &nbsp;&nbsp;&nbsp;&nbsp;StatusSystem: Gerencia os estados do sistema: BOOT → IDLE → RUN → ERROR  
+    &nbsp;&nbsp;&nbsp;&nbsp;ConfigManager: Lê, salva e restaura configurações via NVS  
+    &nbsp;&nbsp;&nbsp;&nbsp;SensorManager: Inicializa o MPU6050 e detecta quedas com base na aceleração  
+    &nbsp;&nbsp;&nbsp;&nbsp;Logger: Registra os dados capturados em formato CSV usando LittleFS  
 
 🧪 Testes de Bancada  
   Durante os testes, foram simuladas quedas para validar:  
-    ⏱️ Tempo de resposta  
-    ✅ Precisão na detecção  
-    📊 Consumo de memória  
+    &nbsp;&nbsp;&nbsp;&nbsp;⏱️ Tempo de resposta  
+    &nbsp;&nbsp;&nbsp;&nbsp;✅ Precisão na detecção  
+    &nbsp;&nbsp;&nbsp;&nbsp;📊 Consumo de memória  
   Os resultados são armazenados em data/resultados.csv para análise posterior.  
 
 🧰 Ambiente de Desenvolvimento  
-  💻 PlatformIO: gerenciamento de build, upload e monitor serial  
-  🧪 Wokwi: simulação online do ESP32 com sensores e periféricos  
+  &nbsp;&nbsp;&nbsp;&nbsp;💻 PlatformIO: gerenciamento de build, upload e monitor serial  
+  &nbsp;&nbsp;&nbsp;&nbsp;🧪 Wokwi: simulação online do ESP32 com sensores e periféricos  
 
 🚀 Como começar  
-  Clone o repositório  
-  Abra com PlatformIO no VS Code  
-  Compile e faça o upload para o ESP32  
-  Monitore os dados via serial ou MQTT  
+  &nbsp;&nbsp;&nbsp;&nbsp;Clone o repositório  
+  &nbsp;&nbsp;&nbsp;&nbsp;Abra com PlatformIO no VS Code  
+  &nbsp;&nbsp;&nbsp;&nbsp;Compile e faça o upload para o ESP32  
+  &nbsp;&nbsp;&nbsp;&nbsp;Monitore os dados via serial ou MQTT  
