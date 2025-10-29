@@ -1,17 +1,17 @@
 # Detector de quedas
 
-🚨 Detecção de Quedas com ESP32 usando MQTT, FreeRTOS, NVS e LittleFS
+🚨 Detecção de Quedas com ESP32 usando MQTT, FreeRTOS, NVS e LittleFS  
 Este projeto implementa um sistema embarcado inteligente para detecção de quedas utilizando o microcontrolador ESP32, com suporte a comunicação MQTT, persistência de dados e multitarefa via FreeRTOS.
 
 🧠 Funcionalidades:  
-  📡 MQTT (HiveMQ): envio de alertas em tempo real  
-  🎯 MPU6050: sensor de aceleração para detectar quedas  
-  ⚙️ FreeRTOS: gerenciamento de tarefas paralelas  
-  💾 NVS (Non-Volatile Storage): armazenamento persistente de configurações com controle de versão  
-  🔁 Botão de Reset: restaura configurações de fábrica  
-  📁 LittleFS: registro de eventos em arquivo CSV  
-  ⏱️ GPTimer: amostragem precisa dos dados do sensor  
-  💡 LEDC (PWM): simulação de pulsos para feedback visual ou sonoro  
+  &nbsp;&nbsp;&nbsp;&nbsp;📡 MQTT (HiveMQ): envio de alertas em tempo real  
+  &nbsp;&nbsp;&nbsp;&nbsp;🎯 MPU6050: sensor de aceleração para detectar quedas  
+  &nbsp;&nbsp;&nbsp;&nbsp;⚙️ FreeRTOS: gerenciamento de tarefas paralelas  
+  &nbsp;&nbsp;&nbsp;&nbsp;💾 NVS (Non-Volatile Storage): armazenamento persistente de configurações com controle de versão  
+  &nbsp;&nbsp;&nbsp;&nbsp;🔁 Botão de Reset: restaura configurações de fábrica  
+  &nbsp;&nbsp;&nbsp;&nbsp;📁 LittleFS: registro de eventos em arquivo CSV  
+  &nbsp;&nbsp;&nbsp;&nbsp;⏱️ GPTimer: amostragem precisa dos dados do sensor  
+  &nbsp;&nbsp;&nbsp;&nbsp;💡 LEDC (PWM): simulação de pulsos para feedback visual ou sonoro  
 
 🧩 Arquitetura do Sistema  
   O projeto é modular e organizado em módulos:  
