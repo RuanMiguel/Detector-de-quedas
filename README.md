@@ -20,18 +20,18 @@ Este projeto implementa um sistema embarcado inteligente para detecção de qued
     &nbsp;&nbsp;&nbsp;&nbsp;SensorManager: Inicializa o MPU6050 e detecta quedas com base na aceleração  
     &nbsp;&nbsp;&nbsp;&nbsp;Logger: Registra os dados capturados em formato CSV usando LittleFS  
 
-🧪 Testes de Bancada  
+🧪 Testes de Bancada:  
   Durante os testes, foram simuladas quedas para validar:  
     &nbsp;&nbsp;&nbsp;&nbsp;⏱️ Tempo de resposta  
     &nbsp;&nbsp;&nbsp;&nbsp;✅ Precisão na detecção  
     &nbsp;&nbsp;&nbsp;&nbsp;📊 Consumo de memória  
   Os resultados são armazenados em data/resultados.csv para análise posterior.  
 
-🧰 Ambiente de Desenvolvimento  
+🧰 Ambientes de Desenvolvimento:  
   &nbsp;&nbsp;&nbsp;&nbsp;💻 PlatformIO: gerenciamento de build, upload e monitor serial  
   &nbsp;&nbsp;&nbsp;&nbsp;🧪 Wokwi: simulação online do ESP32 com sensores e periféricos  
 
-🚀 Como começar  
+🚀 Como começar?  
   &nbsp;&nbsp;&nbsp;&nbsp;Clone o repositório  
   &nbsp;&nbsp;&nbsp;&nbsp;Abra com PlatformIO no VS Code  
   &nbsp;&nbsp;&nbsp;&nbsp;Compile e faça o upload para o ESP32  
